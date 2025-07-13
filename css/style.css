@@ -1,0 +1,119 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?school,nature') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.logo {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #003366; /* Biru Tua SMA */
+    font-weight: 600;
+}
+
+p {
+    color: #004080;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #003366;
+    font-weight: 500;
+}
+
+select, input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 51, 102, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    color: #003366;
+}
+
+select:focus, input:focus {
+    outline: none;
+    border-color: #0055a4;
+    box-shadow: 0 0 5px rgba(0, 85, 164, 0.5);
+}
+
+.camera-container {
+    border: 2px dashed #0055a4;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0,0,0,0.1);
+}
+
+#camera-preview {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.btn {
+    background: linear-gradient(45deg, #0055a4, #003366);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 51, 102, 0.3);
+    width: 100%;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 51, 102, 0.4);
+}
+
+.alert {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.alert-sukses {
+    background-color: rgba(40, 167, 69, 0.8);
+    color: white;
+}
+.alert-gagal {
+    background-color: rgba(220, 53, 69, 0.8);
+    color: white;
+}
